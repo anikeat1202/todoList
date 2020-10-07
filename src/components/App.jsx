@@ -42,7 +42,7 @@ return <div><Header></Header>
 <CreateArea onAdd={addNote}></CreateArea>
 {notes.map((noteItem,index)=>{
 
-return <Notes key={index} id={index} itle={noteItem.title} content={noteItem.content} onDelete={deleteNote}/>
+return <Notes key={index} id={index} title={noteItem.title} content={noteItem.content} onDelete={deleteNote}/>
 
 })}
 
